@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laboratorio de argumentos</title>
+<meta name="description" content="Herramienta para construir, ordenar y revisar tesis, premisas y evidencias. Funciona sin conexión.">
+<meta name="theme-color" content="#1f3a5f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header id="topbar"></header>
+<div id="banner" role="status"></div>
+<main id="main" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg"></dialog>
+<noscript><p style="padding:1rem">Esta herramienta necesita JavaScript activado para funcionar.</p></noscript>
+<script src="logic.js"></script>
+<script src="db.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
